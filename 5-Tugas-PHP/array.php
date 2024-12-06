@@ -17,10 +17,13 @@
         SOAL NO 1
         Kelompokkan nama-nama di bawah ini ke dalam Array.
         Kids : "Mike", "Dustin", "Will", "Lucas", "Max", "Eleven" 
-        Adults: "Hopper", "Nancy",  "Joyce", "Jonathan", "Murray"
+        Adults: "Hopper", "Nancy", "Joyce", "Jonathan", "Murray"
     */
     $kids = ["Mike", "Dustin", "Will", "Lucas", "Max", "Eleven"];
     $adults = ["Hopper", "Nancy", "Joyce", "Jonathan", "Murray"];
+
+    echo "Kids: " . implode(", ", $kids) . "<br>"; // Tampilkan Kids
+    echo "Adults: " . implode(", ", $adults) . "<br>"; // Tampilkan Adults
 
     echo "<h3> Soal 2</h3>";
     /* 
